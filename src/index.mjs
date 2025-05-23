@@ -27,6 +27,7 @@ app.set("view engine", "pug")
 app.set("views", path.join("templates"))
 
 // Configure middleware
+app.use(express.json())
 app.use(async (req, _, next) => {
     console.log(`${req.method} - ${req.url}`)
     next()
