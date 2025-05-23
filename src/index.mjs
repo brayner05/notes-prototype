@@ -44,4 +44,7 @@ app.listen(application.port, error => {
     }
 })
 
-application.database.close()
+// When the application exits, close the database connection.
+process.on("exit", _ => {
+    application.database.close()
+})
