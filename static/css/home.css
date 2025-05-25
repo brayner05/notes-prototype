@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/static/fonts/Poppins/Poppins-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  color: #117236;
+  background-color: #afffce;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: #92ffbc;
+}
+
+main {
+  background-color: #ececec;
+  color: #0f0f0f;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+main .content {
+  background-color: #f1f1f1;
+  padding: 2.5rem;
+  min-width: 40%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px rgba(110, 110, 110, 0.5254901961);
+  display: flex;
+  flex-direction: column;
+}
+main .content ul {
+  margin-top: 1rem;
+  list-style: none;
+  width: 100%;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+main .content ul li {
+  cursor: pointer;
+  margin: 0.7rem 0;
+  background-color: #afffce;
+  color: #117236;
+  font-weight: 500;
+  border-radius: 10px;
+}
+main .content ul li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+main .content ul li:hover {
+  background-color: #92ffbc;
+}
+main button#new-project-button {
+  width: 100%;
+  background-color: #117236;
+  color: #ececec;
+}
+
+/*# sourceMappingURL=home.css.map */

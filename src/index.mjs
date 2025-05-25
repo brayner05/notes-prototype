@@ -28,6 +28,7 @@ app.set("views", path.join("templates"))
 
 // Configure middleware
 app.use(express.json())
+app.use(express.static("static"))
 app.use(async (req, _, next) => {
     console.log(`${req.method} - ${req.url}`)
     next()
